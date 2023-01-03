@@ -13,6 +13,10 @@ export const Game = ()=>{
         xTurn:true,
         completed:null
     });
+
+    const hasWinner = ()=>{
+
+    }
     const isCompleted = ()=>{
         let ctXV=0;
         let ctOV=0;
